@@ -1,0 +1,143 @@
+::-webkit-scrollbar {
+  width: 11px; }
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  -webkit-border-radius: 10px;
+  border-radius: 10px; }
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #911717;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5); }
+
+::-webkit-scrollbar-thumb:window-inactive {
+  background: #911717; }
+
+body {
+  overflow-x: hidden; }
+  body nav {
+    z-index: 3; }
+  body .navbar-brand .logo {
+    height: 60px; }
+  body .sepnav {
+    color: #CA590F; }
+  body .bg-light {
+    background-color: #282828 !important;
+    box-shadow: 2px 2px 3px #00000021; }
+  body .navbar-light .navbar-brand {
+    color: white; }
+  body .navbar-light .navbar-nav .active > .nav-link, body .navbar-light .navbar-nav .nav-link.active, body .navbar-light .navbar-nav .nav-link.show, body .navbar-light .navbar-nav .show > .nav-link {
+    color: white;
+    font-family: 'Quando', serif; }
+  body .navbar-light .navbar-nav .nav-link:focus, body .navbar-light .navbar-nav .nav-link:hover {
+    color: white !important; }
+  body .navbar-light .navbar-nav .nav-link {
+    color: #CA590F;
+    font-family: 'Quando', serif; }
+  body .nav-item {
+    padding: 0px 20px; }
+    body .nav-item a {
+      font-size: 20px; }
+    body .nav-item i {
+      color: white;
+      font-size: 20px; }
+  body .boki {
+    font-family: 'Quando', serif;
+    font-weight: 400; }
+  body .i {
+    color: #CA590F; }
+  body header .para {
+    height: 100vh;
+    padding: 10vh 10vw;
+    z-index: 2; }
+    body header .para .active {
+      color: white; }
+    body header .para .dot-nav {
+      position: absolute;
+      top: 85vh; }
+      body header .para .dot-nav i {
+        color: #cccccc78; }
+    body header .para .maison {
+      padding-bottom: 7vh; }
+    body header .para .btn-danger {
+      color: #fff;
+      background-color: #911717;
+      border-color: #911717; }
+      body header .para .btn-danger a {
+        text-decoration: none;
+        color: inherit; }
+    body header .para h3 {
+      color: white;
+      max-width: 15vw;
+      padding-bottom: 1vh;
+      font-family: 'Quando', serif; }
+  body header h1 {
+    color: white;
+    font-size: 6rem;
+    letter-spacing: 5px;
+    font-family: 'Quando', serif;
+    letter-spacing: 30px; }
+  body header h2 {
+    color: white;
+    font-size: 2rem;
+    padding-bottom: 4vh;
+    font-family: 'Quando', serif;
+    letter-spacing: 5px; }
+  body .section-presention {
+    overflow: hidden; }
+    body .section-presention .bienvenue h1 {
+      padding-top: 10vh;
+      padding-bottom: 4vh;
+      font-size: 10rem;
+      max-width: 90%;
+      font-family: 'Muli', sans-serif;
+      font-weight: bolder;
+      color: #464646; }
+    body .section-presention .bienvenue p {
+      max-width: 95%;
+      font-family: 'Muli', sans-serif;
+      font-weight: 200;
+      font-size: 1.4rem;
+      text-align: justify; }
+  body .section-la-carte {
+    background-color: #282828;
+    font-family: 'Quando', serif; }
+    body .section-la-carte h2 {
+      color: #fff;
+      font-size: 2.7rem;
+      letter-spacing: 5px; }
+    body .section-la-carte img {
+      padding-left: 1vw;
+      height: 50px;
+      color: #fff; }
+    body .section-la-carte hr.style1 {
+      border-top: 2px solid #FFD185;
+      width: 60%; }
+    body .section-la-carte .carte {
+      margin-top: 5vh;
+      margin-bottom: 15vh; }
+      body .section-la-carte .carte h3 {
+        color: #FFD185; }
+      body .section-la-carte .carte p {
+        color: #fff; }
+  body .para2 {
+    height: 60vh;
+    z-index: 2; }
+    body .para2 i {
+      color: #ff6e0078;
+      font-size: 10rem;
+      padding-top: 15vh; }
+    body .para2 h5 {
+      color: white;
+      font-size: 3rem;
+      max-width: 30vw;
+      padding-bottom: 15vh; }
+  body footer {
+    padding: 20vh; }
+    body footer i {
+      font-size: 3rem;
+      margin: 0px 20px; }
+
+/*# sourceMappingURL=style.css.map */
