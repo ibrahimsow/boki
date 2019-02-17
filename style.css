@@ -122,6 +122,15 @@ body {
         color: #FFD185; }
       body .section-la-carte .carte p {
         color: #fff; }
+  body .section-citation {
+    font-family: 'Muli', sans-serif;
+    color: #464646; }
+    body .section-citation h4 {
+      font-weight: bolder;
+      font-size: 6rem; }
+    body .section-citation p {
+      font-size: 3rem;
+      font-weight: 400; }
   body .para2 {
     height: 60vh;
     z-index: 2; }

@@ -168,7 +168,19 @@ header{
         }
     }
 }
-.para2{
+.section-citation{
+        font-family: 'Muli', sans-serif;
+        color: #464646;
+        h4{
+            font-weight: bolder;
+            font-size: 6rem;
+        }
+        p{
+            font-size: 3rem;
+            font-weight: 400;
+        }
+}
+.para2{ 
     height: 60vh;
     z-index: 2;
     i{
