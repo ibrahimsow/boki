@@ -1,3 +1,4 @@
+@import 'galerie';
 ::-webkit-scrollbar {
     width: 11px;
 }
@@ -188,6 +189,7 @@ footer{
         opacity: .3;
         height: 150px !important;
         font-family: 'Quando', serif;
+        transition: .3s;
     }
     h5{
         color: #fff;

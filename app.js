@@ -1,18 +1,25 @@
-$(document).on('ready', function() {
-    $(".lazy").slick({
-      lazyLoad: 'ondemand', // ondemand progressive anticipated
-      dots: true,
-      infinite: true,
-      autoplay: true,
-      autoplaySpeed: 3000,
-      speed: 300,
-      centerMode: true,
-      // adaptiveHeight: false
-    });
-  });
-  console.log("coucou");
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    autoplay:true,
+    autoplayTimeout:5000,
+    autoplaySpeed: 3000,
+    autoplayHoverPause:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:1
+        }
+    }
+})
 
-  // transition sur la redirection de mon liens d'ancrage
+// transition sur la redirection de mon liens d'ancrage
 
 (function() {
   var speed = 600;

@@ -5,11 +5,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" type="text/css" href="./slick/slick.css">
-    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Quando|Muli" rel="stylesheet">
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Boki</title>
   </head>
@@ -30,7 +30,7 @@
                     <span class="sepnav">|</span>
                     </li>
                     <li data-aos="zoom-in" data-aos-delay="900" class="ml-1 mr-1 nav-item d-flex justify-content-center align-items-center">
-                        <a class="m-1 nav-link pr-lg-5" href="#">Galerie des plats</a>
+                        <a class="m-1 nav-link pr-lg-5" href="galerie.html">Galerie des plats</a>
                         <span class="sepnav">|</span>
                     </li>
                     <li data-aos="zoom-in" data-aos-delay="900" class="ml-1 mr-1 nav-item d-flex justify-content-center align-items-center">
@@ -39,7 +39,7 @@
                 </ul>
             </div>
         </nav>
-    <header>
+    <header id="header">
         <div class="para container-fluid  d-flex flex-column justify-content-center align-items-center parallax-window " data-parallax="scroll" data-image-src="img/bg-accueil.png">
             <div class="d-flex flex-column justify-content-center align-items-center">
                 <h1 class="pl-lg-4 text-center">Boki</h1>
@@ -60,9 +60,9 @@
         <div class="row">
             <div class="bienvenue col-lg-8 container pl-5 d-flex flex-column justify-content-start align-items-start">
                 <h1>Bienvenue sur <span class="boki">Bok<span class="i">i</span></span></h1>
-                <p>Parce que nous somme heureux de partager avec vous les saveurs de la gastronomie africaine, nous vous proposons un safari culinaire. </p>
+                <p>Parce que nous sommes heureux de partager avec vous les saveurs de la gastronomie africaine, nous vous proposons un safari culinaire. </p>
                 <p>Boki est un restaurant fait maison qui prend soin de respecter les méthodes de cuisine traditionnelle.</p>
-                <p>Les commandes sont passé au minimum 1 jours à l'avance, nous prenons soin de servir des produits frais. Nous portons une grande importance au temps de cuisson pour garantir une qualité à la hauteur de nos engagements.  </p>
+                <p>Les commandes sont passé au minimum 1 jour à l'avance, nous prenons soin de servir des produits frais. Nous portons une grande importance au temps de cuisson pour garantir une qualité à la hauteur de nos engagements.  </p>
             
             </div>
             <div class="col-lg-4">
@@ -91,6 +91,7 @@
                 <div class="col-12 col-sm-12 col-md-12 col-lg-6">
                     <h3 class="mb-3 text-center">Plats</h3>
                     <p>Tieboudiene : riz à la sauce tomate, poisson, légumes <br> 12€</p>
+                    <p>Tieb Poulet : riz, poulet, légumes <br> 8€</p>
                     <p>Dibi D'agneau : agneau grillé, bananes plantains/frite, oignon et sauce maison <br> 10€</p>
                     <p>Yassa : riz, poulet, sauce au oignons, olives | riz ou vermicelle au choix <br> 9.5€</p>
                     <p>Maafé : riz, veau, gombos, carotte, sauce d'arachide <br> 10€</p>
@@ -128,35 +129,10 @@
                 </div>
             </div>
         </section>
-  <!--  <section class="test2">
-            <section class="lazy slider container" data-sizes="50vw">
-                    <div class="carousel-card d-flex flex-column justify-content-center align-items-center">
-                        <h1 class="text-center">Titre 1</h1>
-                        <img src="img/children.jpeg" alt="">
-                        <button class="btn btn-info"> Button 1</button>
-                    </div>
-                    <div class="carousel-card d-flex flex-column justify-content-center align-items-center">
-                        <h1 class="text-center">Titre 2</h1>
-                        <img src="img/children.jpeg" alt="">
-                        <button class="btn btn-info"> Button 2</button>
-                    </div>
-                    <div class="carousel-card d-flex flex-column justify-content-center align-items-center">
-                        <h1 class="text-center">Titre 3</h1>
-                        <img src="img/children.jpeg" alt="">
-                        <button class="btn btn-info"> Button 3</button>    
-                    </div>
-                    <div class="carousel-card d-flex flex-column justify-content-center align-items-center">
-                        <h1 class="text-center">Titre 4</h1>
-                        <img src="img/children.jpeg" alt="">
-                        <button class="btn btn-info"> Button 4</button>
-                    </div>
-            </section>
-    </section>
-    -->
     <footer class="section-footer container-fluid d-flex justify-content-center align-items-center" id="footer">
         <div class="row w-100">
             <div class="col-4 d-flex justify-content-center align-items-center">
-                <img src="img/logo-white.png" alt="logo" class="img-fluid">
+                <a href="#header"><img src="img/logo-white.png" alt="logo" class="img-fluid"></a>
             </div>
             <div class="col-4">
                 <h5 data-aos="fade-down" class="text-center mb-5">Retrouvez nous sur les réseaux</h5>
@@ -181,8 +157,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
-    <script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+    <script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
     <script src="app.js"></script>
-
 </body>
 </html>
