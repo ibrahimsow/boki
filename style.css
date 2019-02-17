@@ -131,22 +131,34 @@ body {
     body .section-citation p {
       font-size: 3rem;
       font-weight: 400; }
-  body .para2 {
-    height: 60vh;
-    z-index: 2; }
-    body .para2 i {
-      color: #ff6e0078;
-      font-size: 10rem;
-      padding-top: 15vh; }
-    body .para2 h5 {
-      color: white;
-      font-size: 3rem;
-      max-width: 30vw;
-      padding-bottom: 15vh; }
   body footer {
-    padding: 20vh; }
+    padding: 12vh;
+    background-color: #282828;
+    font-family: 'Muli', sans-serif; }
+    body footer img {
+      opacity: .3;
+      height: 150px !important;
+      font-family: 'Quando', serif; }
+    body footer h5 {
+      color: #fff;
+      font-size: 2rem; }
     body footer i {
-      font-size: 3rem;
-      margin: 0px 20px; }
+      font-size: 4rem;
+      margin: 0px 20px;
+      color: #fff;
+      transition: .1s; }
+      body footer i:hover {
+        color: #CA590F;
+        transform: scale(1.05); }
+    body footer a {
+      text-decoration: none;
+      color: #fff; }
+      body footer a:hover {
+        text-decoration: none;
+        color: #CA590F; }
+  body .copyright {
+    background-color: #202020;
+    padding: 3vh;
+    color: #5a5a5a; }
 
 /*# sourceMappingURL=style.css.map */

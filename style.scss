@@ -180,58 +180,41 @@ header{
             font-weight: 400;
         }
 }
-.para2{ 
-    height: 60vh;
-    z-index: 2;
-    i{
-        color: #ff6e0078;
-        font-size: 10rem;
-        padding-top: 15vh
+footer{
+    padding: 12vh;
+    background-color: #282828;
+    font-family: 'Muli', sans-serif;
+    img{
+        opacity: .3;
+        height: 150px !important;
+        font-family: 'Quando', serif;
     }
     h5{
-        color: white;
-        font-size: 3rem;
-        max-width: 30vw;
-        padding-bottom: 15vh
+        color: #fff;
+        font-size: 2rem;
+    }
+    i{
+        font-size: 4rem;
+        margin: 0px 20px;
+        color: #fff;
+        transition: .1s;
+        &:hover{
+            color: #CA590F;
+            transform: scale(1.05)
+        }
+    }
+    a{
+        text-decoration: none;
+        color: #fff;
+        &:hover{
+            text-decoration: none;
+            color: #CA590F;
+        }
     }
 }
-// .test2{
-//     background-color: #9E9E9E;
-//     .lazy{
-//         padding: 3%;
-//         .carousel-card{
-//             overflow: hidden;
-//             display: inline-block;
-//             max-height: 100%;
-//             max-width: 100%;
-//         }
-//         h1{
-//             margin: 50px 0px;
-//         }
-//         img{
-//             max-height: 80%;
-//             max-width: 80%;
-//         }
-//         button{
-//             margin: 50px 0px;
-//         }
-//     }
-// }
-//     .slick-slide > div {
-//         width: 100%;
-//     }
-//     .slick-list{
-//         padding: 0 !important;
-//     }
-//     .slick-dots{
-//         display: none !important;
-//     }
-
-footer{
-    padding: 20vh;
-    i{
-        font-size: 3rem;
-        margin: 0px 20px;
-    }
+.copyright{
+    background-color: #202020;
+    padding: 3vh;
+    color: #5a5a5a;
 }
 }
