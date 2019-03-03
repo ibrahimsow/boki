@@ -29,21 +29,27 @@ body {
     height: 60px; }
   body .sepnav {
     color: #CA590F; }
+    @media (max-width: 991px) {
+      body .sepnav {
+        display: none; } }
   body .bg-light {
     background-color: #282828 !important;
     box-shadow: 2px 2px 3px #00000021; }
-  body .navbar-light .navbar-brand {
+  body .navbar-dark .navbar-brand {
     color: white; }
-  body .navbar-light .navbar-nav .active > .nav-link, body .navbar-light .navbar-nav .nav-link.active, body .navbar-light .navbar-nav .nav-link.show, body .navbar-light .navbar-nav .show > .nav-link {
+  body .navbar-dark .navbar-nav .active > .nav-link, body .navbar-dark .navbar-nav .nav-link.active, body .navbar-dark .navbar-nav .nav-link.show, body .navbar-dark .navbar-nav .show > .nav-link {
     color: white;
     font-family: 'Quando', serif; }
-  body .navbar-light .navbar-nav .nav-link:focus, body .navbar-light .navbar-nav .nav-link:hover {
+  body .navbar-dark .navbar-nav .nav-link:focus, body .navbar-dark .navbar-nav .nav-link:hover {
     color: white !important; }
-  body .navbar-light .navbar-nav .nav-link {
+  body .navbar-dark .navbar-nav .nav-link {
     color: #CA590F;
     font-family: 'Quando', serif; }
   body .nav-item {
-    padding: 0px 20px; }
+    padding: 0; }
+    @media (min-width: 1200px) {
+      body .nav-item {
+        padding: 0px 20px; } }
     body .nav-item a {
       font-size: 20px; }
     body .nav-item i {
@@ -55,9 +61,20 @@ body {
   body .i {
     color: #CA590F; }
   body header .para {
-    height: 100vh;
-    padding: 10vh 10vw;
+    padding: 25vh 10vw;
     z-index: 2; }
+    @media (max-width: 575.98px) {
+      body header .para {
+        padding: 30vh 10vw; } }
+    @media (min-width: 576px) and (max-width: 767.98px) {
+      body header .para {
+        padding: 30vh 10vw; } }
+    @media (min-width: 768px) and (max-width: 991.98px) {
+      body header .para {
+        padding: 30vh 10vw; } }
+    @media (min-width: 992px) and (max-width: 1199.98px) {
+      body header .para {
+        padding: 30vh 10vw; } }
     body header .para .active {
       color: white; }
     body header .para .dot-nav {
@@ -74,39 +91,55 @@ body {
       body header .para .btn-danger a {
         text-decoration: none;
         color: inherit; }
-    body header .para h3 {
-      color: white;
-      max-width: 15vw;
-      padding-bottom: 1vh;
-      font-family: 'Quando', serif; }
   body header h1 {
     color: white;
     font-size: 6rem;
     letter-spacing: 5px;
     font-family: 'Quando', serif;
     letter-spacing: 30px; }
+    @media (max-width: 575.98px) {
+      body header h1 {
+        letter-spacing: 10px;
+        font-size: 3rem; } }
   body header h2 {
     color: white;
     font-size: 2rem;
     padding-bottom: 4vh;
     font-family: 'Quando', serif;
     letter-spacing: 5px; }
-  body .section-presention {
-    overflow: hidden; }
-    body .section-presention .bienvenue h1 {
-      padding-top: 10vh;
-      padding-bottom: 4vh;
-      font-size: 10rem;
-      max-width: 90%;
-      font-family: 'Muli', sans-serif;
-      font-weight: bolder;
-      color: #464646; }
-    body .section-presention .bienvenue p {
-      max-width: 95%;
-      font-family: 'Muli', sans-serif;
-      font-weight: 200;
-      font-size: 1.4rem;
-      text-align: justify; }
+    @media (max-width: 575.98px) {
+      body header h2 {
+        font-size: 1rem; } }
+  body header h3 {
+    padding-bottom: 1vh;
+    font-family: 'Quando', serif;
+    color: white; }
+    @media (max-width: 575.98px) {
+      body header h3 {
+        max-width: inherit; } }
+  body .section-presention .bienvenue h1 {
+    padding-bottom: 4vh;
+    font-size: 10rem;
+    font-family: 'Muli', sans-serif;
+    font-weight: bolder;
+    color: #464646; }
+    @media (max-width: 575.98px) {
+      body .section-presention .bienvenue h1 {
+        font-size: 3rem; } }
+    @media (min-width: 576px) and (max-width: 767.98px) {
+      body .section-presention .bienvenue h1 {
+        font-size: 5rem; } }
+  body .section-presention .bienvenue p {
+    font-family: 'Muli', sans-serif;
+    font-weight: 200;
+    font-size: 1.4rem;
+    text-align: justify; }
+    @media (max-width: 575.98px) {
+      body .section-presention .bienvenue p {
+        text-align: left; } }
+    @media (min-width: 576px) and (max-width: 767.98px) {
+      body .section-presention .bienvenue p {
+        text-align: left; } }
   body .section-la-carte {
     background-color: #282828;
     font-family: 'Quando', serif; }
@@ -134,6 +167,12 @@ body {
     body .section-citation h4 {
       font-weight: bolder;
       font-size: 6rem; }
+      @media (max-width: 575.98px) {
+        body .section-citation h4 {
+          font-size: 3rem; } }
+      @media (min-width: 576px) and (max-width: 767.98px) {
+        body .section-citation h4 {
+          font-size: 5rem; } }
     body .section-citation p {
       font-size: 3rem;
       font-weight: 400; }
