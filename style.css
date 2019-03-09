@@ -1,8 +1,22 @@
-.plats {
-  height: 70vh;
-  width: 100vw; }
-  .plats h2 {
-    font-size: 3rem; }
+.galerie-titre {
+  padding: 25vh 10vw;
+  z-index: 2; }
+  .galerie-titre h1 {
+    color: white;
+    font-size: 3rem;
+    font-family: 'Quando', serif;
+    letter-spacing: 5px;
+    padding: 20px; }
+    @media (max-width: 575.98px) {
+      .galerie-titre h1 {
+        letter-spacing: 5px;
+        font-size: 3rem; } }
+
+.galerie {
+  padding: 10px; }
+  .galerie img {
+    height: 200px;
+    width: auto; }
 
 ::-webkit-scrollbar {
   width: 11px; }
@@ -22,7 +36,8 @@
   background: #911717; }
 
 body {
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  height: 100%; }
   body nav {
     z-index: 3; }
   body .navbar-brand .logo {
@@ -145,8 +160,7 @@ body {
     font-family: 'Quando', serif; }
     body .section-la-carte h2 {
       color: #fff;
-      font-size: 2.7rem;
-      letter-spacing: 5px; }
+      font-size: 2.7rem; }
     body .section-la-carte img {
       padding-left: 1vw;
       height: 50px;
@@ -169,36 +183,73 @@ body {
       font-size: 6rem; }
       @media (max-width: 575.98px) {
         body .section-citation h4 {
-          font-size: 3rem; } }
+          font-size: 1.5rem;
+          text-align: justify; } }
       @media (min-width: 576px) and (max-width: 767.98px) {
         body .section-citation h4 {
-          font-size: 5rem; } }
+          font-size: 2.5rem;
+          text-align: justify; } }
     body .section-citation p {
       font-size: 3rem;
       font-weight: 400; }
+      @media (max-width: 575.98px) {
+        body .section-citation p {
+          font-size: 1.5rem;
+          text-align: justify; } }
+      @media (min-width: 576px) and (max-width: 767.98px) {
+        body .section-citation p {
+          font-size: 2rem;
+          text-align: justify; } }
   body footer {
     padding: 12vh;
     background-color: #282828;
     font-family: 'Muli', sans-serif; }
+    @media (max-width: 575.98px) {
+      body footer {
+        padding: 5vh; } }
+    @media (min-width: 576px) and (max-width: 767.98px) {
+      body footer {
+        padding: 5vh; } }
     body footer img {
       opacity: .3;
-      height: 150px !important;
       font-family: 'Quando', serif;
       transition: .3s; }
     body footer h5 {
       color: #fff;
       font-size: 2rem; }
+      @media (max-width: 575.98px) {
+        body footer h5 {
+          font-size: 1.5rem; } }
+      @media (min-width: 576px) and (max-width: 767.98px) {
+        body footer h5 {
+          font-size: 1.7rem; } }
     body footer i {
       font-size: 4rem;
       margin: 0px 20px;
       color: #fff;
       transition: .1s; }
+      @media (max-width: 575.98px) {
+        body footer i {
+          font-size: 3rem; } }
+      @media (min-width: 576px) and (max-width: 767.98px) {
+        body footer i {
+          font-size: 4rem; } }
       body footer i:hover {
         color: #CA590F;
         transform: scale(1.05); }
     body footer a {
       text-decoration: none;
-      color: #fff; }
+      color: #fff;
+      padding: 20px; }
+      @media (max-width: 575.98px) {
+        body footer a {
+          padding: 10px; } }
+      @media (min-width: 576px) and (max-width: 767.98px) {
+        body footer a {
+          padding: 15px; } }
+      @media (min-width: 768px) and (max-width: 991.98px) {
+        body footer a {
+          padding: 20px; } }
       body footer a:hover {
         text-decoration: none;
         color: #CA590F; }
@@ -206,5 +257,11 @@ body {
     background-color: #202020;
     padding: 3vh;
     color: #5a5a5a; }
+    @media (max-width: 575.98px) {
+      body .copyright {
+        padding: 5vh; } }
+    @media (min-width: 576px) and (max-width: 767.98px) {
+      body .copyright {
+        padding: 5vh; } }
 
 /*# sourceMappingURL=style.css.map */

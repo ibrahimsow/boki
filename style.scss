@@ -20,6 +20,7 @@
 }
 body{
 overflow-x: hidden;
+height: 100%;
 nav{
     z-index: 3; 
 }
@@ -199,7 +200,7 @@ header{
     h2{
         color: #fff;
         font-size: 2.7rem;
-        letter-spacing: 5px;
+        // letter-spacing: 5px;
     }
     img{
         padding-left: 1vw;
@@ -228,36 +229,63 @@ header{
             font-weight: bolder;
             font-size: 6rem;
             @media (max-width: 575.98px) { 
-                font-size: 3rem;
+                font-size: 1.5rem;
+                text-align: justify;
                  }
                 @media (min-width: 576px) and (max-width: 767.98px) { 
-                font-size: 5rem;
+                font-size: 2.5rem;
+                text-align: justify;
                  }
         }
         p{
             font-size: 3rem;
             font-weight: 400;
+            @media (max-width: 575.98px) { 
+                font-size: 1.5rem;
+                text-align: justify;
+                 }
+                @media (min-width: 576px) and (max-width: 767.98px) { 
+                font-size: 2rem;
+                text-align: justify;
+                 }           
         }
 }
 footer{
     padding: 12vh;
     background-color: #282828;
     font-family: 'Muli', sans-serif;
+    @media (max-width: 575.98px) { 
+        padding: 5vh;
+         }
+    @media (min-width: 576px) and (max-width: 767.98px) { 
+        padding: 5vh;
+         }
     img{
         opacity: .3;
-        height: 150px !important;
         font-family: 'Quando', serif;
         transition: .3s;
     }
     h5{
         color: #fff;
         font-size: 2rem;
+        @media (max-width: 575.98px) { 
+            font-size: 1.5rem;            
+             }
+        @media (min-width: 576px) and (max-width: 767.98px) { 
+            font-size: 1.7rem;            
+             }
     }
     i{
         font-size: 4rem;
         margin: 0px 20px;
         color: #fff;
         transition: .1s;
+        @media (max-width: 575.98px) { 
+            font-size: 3rem;            
+             }
+        @media (min-width: 576px) and (max-width: 767.98px) { 
+            font-size: 4rem;            
+             }
         &:hover{
             color: #CA590F;
             transform: scale(1.05)
@@ -266,6 +294,18 @@ footer{
     a{
         text-decoration: none;
         color: #fff;
+        padding: 20px;
+        @media (max-width: 575.98px) { 
+            padding: 10px;
+             }
+    
+            @media (min-width: 576px) and (max-width: 767.98px) { 
+            padding: 15px;
+             }
+    
+            @media (min-width: 768px) and (max-width: 991.98px) { 
+            padding: 20px;
+             }
         &:hover{
             text-decoration: none;
             color: #CA590F;
@@ -276,5 +316,11 @@ footer{
     background-color: #202020;
     padding: 3vh;
     color: #5a5a5a;
+    @media (max-width: 575.98px) { 
+        padding: 5vh;            
+         }
+    @media (min-width: 576px) and (max-width: 767.98px) { 
+        padding: 5vh;            
+         }
 }
 }
